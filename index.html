@@ -12,7 +12,7 @@
 <div class="menus">
     <div class="menu">
         <div class="search_bar">
-            <input type = "text" placeholder="ex: dolar-real" id="moeda"></input>
+            <input type = "text" placeholder="ex: dollar-real" id="currency"></input>
             <!--pesquisa ico-->
             <span class="material-symbols-outlined lupa">search</span>
         </div>
@@ -20,25 +20,25 @@
     </div> 
 
     <div class="menu_2">
-        <button onclick="dolar_para_real()" class="dolar-real">dolar-real</button>
-        <button onclick="euro_para_real()" class="euro-real">euro-real</button>
-        <button onclick="bitcoin_para_real()" class="bitcoin-real">bitcoin-real</button>
+        <button onclick="dollar_to_real()" class="dollar-real">dollar-real</button>
+        <button onclick="euro_to_real()" class="euro-real">euro-real</button>
+        <button onclick="bitcoin_to_real()" class="bitcoin-real">bitcoin-real</button>
     </div>
 </div>
 
     <div class="total">
         <h1 id = "name" style = "color: green; font-family:Arial, Helvetica, sans-serif">coins: </h1>
-        <h1 id = "valor" style = "color: green; font-family:Arial, Helvetica, sans-serif">coin value: </h1>
+        <h1 id = "value" style = "color: green; font-family:Arial, Helvetica, sans-serif">currency value: </h1>
         <h1 id = "real_txt" style = "color: green; font-family:Arial, Helvetica, sans-serif">real value: <input type = "number" value=1 id="value_real"></input> </h1>
 
         <img src="" id="image"></img>
     </div>
 
-    <div class="grafico">
+    <div class="graph">
         <canvas id="myChart"></canvas>
     </div>
 
-    <div class="descricao_de_moeda">
+    <div class="currency_description">
         <h1 id = "text" style = "color: green; font-family:Arial, Helvetica, sans-serif"></h1>
     </div>
 

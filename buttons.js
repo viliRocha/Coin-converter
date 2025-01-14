@@ -1,45 +1,44 @@
-var canvas = document.getElementById("myChart");
+let canvas = document.getElementById("myChart"),
+    chart = canvas.getContext("2d");
 
-var chart = canvas.getContext("2d");
-
-function dolar_para_real() {
-    val.value = "dolar-real";
+function dollar_to_real() {
+    val.value = "dollar-real";
 
     chart.destroy();
 
     reload();
 
-    recuperar();
+    retrieve();
 
-    recuperar_dias(dolar_dias);
+    get_days(dollar_days);
 
     localStorage.setItem("search", val.value);
 }
 
-function euro_para_real() {
+function euro_to_real() {
     val.value = "euro-real";
 
     chart.destroy();
 
     reload();
 
-    recuperar();
+    retrieve();
 
-    recuperar_dias(eur_dias);
+    get_days(eur_days);
 
     localStorage.setItem("search", val.value);
 }
 
-function bitcoin_para_real() {
+function bitcoin_to_real() {
     val.value = "bitcoin-real";
 
     chart.destroy();
 
     reload();
 
-    recuperar();
+    retrieve();
 
-    recuperar_dias(btc_dias);
+    get_days(btc_days);
 
     localStorage.setItem("search", val.value);
 }
