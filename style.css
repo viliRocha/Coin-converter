@@ -1,8 +1,7 @@
 /*Stetup/Config*/
 
 @media (max-width: 600px) and (min-width: 375px) {
-
-  .menu img{
+    .menu img{
         width: 70px !important;
         height: 70px !important;
     }
@@ -20,7 +19,7 @@
         z-index: 0 !important;  
     }
     
-    .grafico {
+    .graph {
         width: 100% !important;
     }
 }
@@ -68,13 +67,13 @@
     color: green;
 }
 
-.grafico {
+.graph {
     width: 500px;
 
     background-color: white;
 }
 
-.descricao_de_moeda {
+.currency_description {
     border: 20px solid white;
 
     background-color: white;
@@ -99,7 +98,7 @@ button {
     color: green;
 }
 
-#moeda {
+#currency {
     height: 35px;  
     width: 300px;
     border-width: 0px;
